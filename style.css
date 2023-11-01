@@ -1,0 +1,139 @@
+
+#container{
+  display: flex;
+  /* margin: 10px; */
+  background-color: whitesmoke;
+}
+#maincontainer{
+  margin: 0px;
+}
+#headdiv{
+  display: flex;
+  justify-content: space-between;
+  background-color: slategrey;
+
+}
+#searchdiv{
+  display: flex;
+  align-items: center;
+  margin-right: 20%;
+}
+#searchinput{
+  height: 40px;
+  width: 400px;
+  border-radius: ;
+}
+#searchbtn{
+  height: 40px;
+}
+.mainhead{
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+}
+
+#leftdiv{
+  border: 1px solid black;
+  width: 22%;
+  padding: 10px;
+  font-family: cursive;
+  
+}
+#ratingdiv input{
+  margin-top: 20px;
+}
+#searchdiv{
+  display: flex;
+}
+#pricediv input{
+  margin-top: 20px;
+}
+#popup{
+  position: fixed;
+  margin-left: 25%;
+  padding: 30px;
+  padding-top: 10px;
+  width: 50%;
+  height: 80%;
+  background-color: rgb(41, 41, 39);
+  display: none;
+  border: 2px rgb(182, 178, 168) solid;
+  color: white;
+}
+
+#popup img{
+  width: 85%;
+  margin: 0% 5% ;
+  height: 50%;
+  margin-bottom: 20px;
+}
+#popup p{
+  margin: 0;
+ font-size: 12px;
+ width: 550px;
+}
+#popup p .png{
+  margin: 0px;
+  height: 30px;
+  width: 30px;
+}
+#popup button{
+  display: flex;
+  position: fixed;
+  margin-left: 45%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+
+
+
+
+
+#productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-around;
+    width: 78%;
+  }
+  
+  .card {
+    height: 340px;
+    width: 300px;
+    margin: 10px 0px;
+    padding: 6px;
+    cursor: pointer;
+  }
+  
+  .card-title {
+    margin: 10px 0px;
+  }
+  
+  .card-img {
+    height: 150px;
+    width: 150px;
+  }
+  .png{
+    height: 30px;
+    width: 30px;
+  }
+  h2,
+  h6,
+  p {
+    margin: 0px ;
+    padding: 0px;
+  }
+  
+  h6 {
+    font-weight: bold;
+    font-size: 13px !important;
+  }
+  
+  h2 {
+    font-size: 20px !important;
+  }
